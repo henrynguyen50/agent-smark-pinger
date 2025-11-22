@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: curl endpoint
         run: |
-            curl -X HEAD https://agent-smark-backend.vercel.app/ping
+            curl -X GET https://agent-smark-backend.vercel.app/ping
