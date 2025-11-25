@@ -1,7 +1,7 @@
 name: ping endpoint
 on:
   schedule:               #TIMES IN CENTRAL TIME
-    - cron: '*/2 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
