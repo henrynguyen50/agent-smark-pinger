@@ -2,10 +2,6 @@ name: ping endpoint
 on:
   schedule:               #TIMES IN CENTRAL TIME
     - cron: '*/5 * * * *'
-    # From 7am–11:59pm CT  (13:00–23:59 UTC)
-    - cron: "*/5 13-23 * * *"
-    # From midnight–4am CT (00:00–04:00 CT = 06:00–10:00 UTC)
-    - cron: "*/5 0-10 * * *"
   workflow_dispatch:
 
 jobs:
